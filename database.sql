@@ -1,4 +1,4 @@
-CREATE DATABASE nexura;
+CREATE DATABASE IF NOT EXISTS nexura;
 USE nexura;
 
 CREATE TABLE areas (

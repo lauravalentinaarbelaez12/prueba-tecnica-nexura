@@ -103,18 +103,6 @@ function validar() {
     return true;
 }
 </script>
-<?php if (isset($_SESSION['mensaje'])): ?>
-<script>
-Swal.fire({
-    icon: '<?= $_SESSION['tipo'] ?>',
-    title: 'Mensaje',
-    text: '<?= $_SESSION['mensaje'] ?>',
-    confirmButtonText: 'OK'
-});
-</script>
-<?php 
-unset($_SESSION['mensaje'], $_SESSION['tipo']); 
-endif; 
-?>
+
 </body>
 </html>
