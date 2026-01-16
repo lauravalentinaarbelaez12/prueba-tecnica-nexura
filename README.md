@@ -10,8 +10,7 @@ Aplicación CRUD de empleados desarrollada en PHP y MySQL.
 
 ## Instalación
 1. Clonar el repositorio:
-   git clone https://github.com/tu-usuario/prueba-tecnica-nexura.git
-
+   git clone https://github.com/lauravalentinaarbelaez12/prueba-tecnica-nexura
 2. Copiar el proyecto en:
    C:\xampp\htdocs\
 
